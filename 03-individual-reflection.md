@@ -1,10 +1,5 @@
 # Phase 7 — Individual Reflection — Dương
 
-> Ghi chú: Đây là **khung reflection cá nhân hóa** dựa trên đóng góp của Dương trong Phase 3–6.  
-> Mỗi người nên tự sửa lại phần cảm nhận bằng lời thật của mình để đúng tinh thần reflection cá nhân.
-
----
-
 ## 1. Top 3 Problem Cards cá nhân
 
 - Tóm tắt meeting notes dài thành action items.
@@ -49,7 +44,6 @@
 ### Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
 ```text
-Gợi ý tự viết:
 - Tôi nhận ra nhiều problem nhìn khác nhau nhưng cùng pattern: thông tin rải rác, phải đọc/lọc/tổng hợp thủ công.
 - Tôi học được rằng problem tốt không chỉ là pain lớn, mà phải có actor rõ, bottleneck cụ thể và metric đo được.
 - Tôi thấy các bài của bạn khác giúp nhóm so sánh được domain rộng như paper review/product workflow với domain hẹp hơn như Legal QA debugging.
@@ -58,15 +52,13 @@ Gợi ý tự viết:
 ### Nhóm có lúc nào bị solution-first không?
 
 ```text
-Gợi ý tự viết:
-- Có/Không. Nếu có, nêu lúc nhóm bắt đầu nghĩ ngay đến AI Agent hoặc RAG tool trước khi chốt workflow.
+- Có, nhóm đã nghĩ ngay đến AI Agent hoặc RAG tool trước khi chốt workflow.
 - Sau đó nhóm kéo lại bằng cách hỏi: actor là ai, bottleneck ở bước nào, metric là gì, nếu AI sai thì ai kiểm tra.
 ```
 
 ### Tôi có thay đổi ý kiến sau khi bị challenge không?
 
 ```text
-Gợi ý tự viết:
 - Ban đầu tôi nghĩ candidate của mình có thể được chọn vì pain rõ.
 - Sau khi nghe challenge, tôi hiểu rằng bài được chọn cần không chỉ hay mà còn phải pilot được, có boundary rõ và so sánh Rule/Workflow/Agent tốt.
 ```
@@ -74,15 +66,12 @@ Gợi ý tự viết:
 ### Tôi đóng góp gì thật sự vào artifact cuối?
 
 ```text
-Gợi ý tự viết:
-- Nêu đóng góp cụ thể của mình: problem card, cluster, câu hỏi challenge, workflow, metric, boundary hoặc decision.
-- Không nên viết chung chung “tôi tham gia thảo luận”.
+- Đóng góp cụ thể của mình: problem card, cluster, câu hỏi challenge, workflow, metric, boundary hoặc decision.
 ```
 
 ### Điều khó nhất khi viết Problem Statement là gì?
 
 ```text
-Gợi ý tự viết:
 - Khó nhất là không viết thành solution.
 - Khó tách rõ bottleneck khỏi impact.
 - Khó đưa metric vừa đo được vừa không quá tham vọng.
@@ -92,7 +81,6 @@ Gợi ý tự viết:
 ### Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở điểm nào?
 
 ```text
-Gợi ý tự viết:
 - Tôi sẽ hỏi kỹ hơn về dữ liệu pilot: có query lỗi thật không, có chunks/luật gốc không.
 - Tôi sẽ yêu cầu đo baseline thật thay vì chỉ ước lượng.
 - Tôi sẽ challenge mạnh hơn câu hỏi: Rule có đủ chưa, vì sao cần AI?
