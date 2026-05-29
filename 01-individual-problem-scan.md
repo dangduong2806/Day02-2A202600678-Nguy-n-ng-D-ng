@@ -183,55 +183,55 @@ AI hỗ trợ biến ý tưởng/meeting notes thành draft requirement rõ hơn
 CURRENT STATE — 40-60 phút
 
 [1 Team họp + trình bày: 30-60']
-→ [2 Ghi meeting notes vào Notion: trong lúc họp]
-→ [3 Project leader đọc lại toàn bộ notes: 15']
-→ [4 Lọc ý chính, decision, blocker: 10-15']  <-- bottleneck
-→ [5 Viết action items cho từng member: 10-20']  <-- bottleneck
-→ [6 Giao task / nhắc lại trong Notion hoặc chat: 5']
-→ [7 Member đọc lại hoặc hỏi lại nếu chưa rõ: 5-15']
+→ [2 Ghi meeting notes vào Notion: trong lúc họp]  
+→ [3 Project leader đọc lại toàn bộ notes: 15']  
+→ [4 Lọc ý chính, decision, blocker: 10-15']  <-- bottleneck  
+→ [5 Viết action items cho từng member: 10-20']  <-- bottleneck  
+→ [6 Giao task / nhắc lại trong Notion hoặc chat: 5']  
+→ [7 Member đọc lại hoặc hỏi lại nếu chưa rõ: 5-15']  
 
-Pain chính:
+Pain chính:  
 Notes dài, ý quan trọng bị lẫn với phần thảo luận. Project leader phải tự đọc lại và chuyển thành task.
 
 ### Draft future workflow
 FUTURE STATE — 15-25 phút
 
-[1 Team họp + trình bày: 30-60']
-→ [2 Ghi meeting notes vào Notion theo template: trong lúc họp]
-→ [3 AI tóm tắt notes thành decision, action items, blocker: 1-2']
-→ [4 AI gợi ý task, owner, deadline nếu có dữ liệu: 1-2']
-→ [5 Project leader review + chỉnh lại: 10-15']  <-- human boundary
-→ [6 Giao task cho member: 3-5']
-→ [7 Member phản hồi nếu task vẫn chưa rõ: 3-5']
+[1 Team họp + trình bày: 30-60']  
+→ [2 Ghi meeting notes vào Notion theo template: trong lúc họp]  
+→ [3 AI tóm tắt notes thành decision, action items, blocker: 1-2']  
+→ [4 AI gợi ý task, owner, deadline nếu có dữ liệu: 1-2']  
+→ [5 Project leader review + chỉnh lại: 10-15']  <-- human boundary  
+→ [6 Giao task cho member: 3-5']  
+→ [7 Member phản hồi nếu task vẫn chưa rõ: 3-5']  
 
-Fallback:
+Fallback:  
 AI tóm tắt sai hoặc thiếu context → project leader đọc lại notes gốc và tự chỉnh action items.
 
 ## Problem Card #2 — Review Papers
 ### Draft current workflow
 CURRENT STATE — 60-120 phút
 
-[1 Tìm paper trên Google Scholar / nguồn khác: 10-20']
-→ [2 Mở từng paper, đọc abstract + introduction: 20-30']
-→ [3 Đọc method/result của paper liên quan: 30-45']  <-- bottleneck
-→ [4 Ghi chú ý chính từng paper: 15-20']
-→ [5 So sánh paper nào phù hợp với project: 15-20']  <-- bottleneck
-→ [6 Chuẩn bị nội dung trình bày cho team: 10-20']
+[1 Tìm paper trên Google Scholar / nguồn khác: 10-20']  
+→ [2 Mở từng paper, đọc abstract + introduction: 20-30']  
+→ [3 Đọc method/result của paper liên quan: 30-45']  <-- bottleneck  
+→ [4 Ghi chú ý chính từng paper: 15-20']  
+→ [5 So sánh paper nào phù hợp với project: 15-20']  <-- bottleneck  
+→ [6 Chuẩn bị nội dung trình bày cho team: 10-20']  
 
-Pain chính:
+Pain chính:  
 Phải đọc nhiều paper liên tiếp, dễ mỏi mắt, khó nhớ paper nào đóng góp gì và liên quan đến project ở điểm nào.
 
 ### Draft future workflow
 FUTURE STATE — 30-45 phút
 
-[1 Tìm paper theo keyword hoặc topic: 10-15']
-→ [2 AI tóm tắt từng paper theo format cố định: 3-5']
-→ [3 AI tạo bảng so sánh problem, method, result, relevance: 3-5']
-→ [4 Team member đọc lại paper gốc ở phần quan trọng: 15-20']  <-- human boundary
-→ [5 Chọn paper phù hợp và ghi nhận insight chính: 5-10']
-→ [6 Chuẩn bị nội dung trình bày: 5-10']
+[1 Tìm paper theo keyword hoặc topic: 10-15']  
+→ [2 AI tóm tắt từng paper theo format cố định: 3-5']  
+→ [3 AI tạo bảng so sánh problem, method, result, relevance: 3-5']  
+→ [4 Team member đọc lại paper gốc ở phần quan trọng: 15-20']  <-- human boundary  
+→ [5 Chọn paper phù hợp và ghi nhận insight chính: 5-10']  
+→ [6 Chuẩn bị nội dung trình bày: 5-10']  
 
-Fallback:
+Fallback:  
 AI summary không đáng tin hoặc paper quá chuyên sâu → member đọc trực tiếp abstract, method, result trong paper gốc.
 
 
@@ -239,29 +239,29 @@ AI summary không đáng tin hoặc paper quá chuyên sâu → member đọc tr
 ### Draft current workflow
 CURRENT STATE — 2-3 lần hỏi lại trong 3 ngày
 
-[1 Project leader nêu ý tưởng feature trong meeting / Notion: 10-20']
-→ [2 Developer đọc lại mô tả hoặc notes: 5-10']
-→ [3 Developer tự suy luận input, output, flow: 15-30']  <-- bottleneck
-→ [4 Developer phát hiện điểm chưa rõ: 5']
-→ [5 Developer hỏi lại project leader: 5-15']
-→ [6 Project leader giải thích thêm hoặc sửa mô tả: 10-20']  <-- bottleneck
-→ [7 Developer bắt đầu triển khai: sau khi đủ rõ]
+[1 Project leader nêu ý tưởng feature trong meeting / Notion: 10-20']  
+→ [2 Developer đọc lại mô tả hoặc notes: 5-10']  
+→ [3 Developer tự suy luận input, output, flow: 15-30']  <-- bottleneck  
+→ [4 Developer phát hiện điểm chưa rõ: 5']  
+→ [5 Developer hỏi lại project leader: 5-15']  
+→ [6 Project leader giải thích thêm hoặc sửa mô tả: 10-20']  <-- bottleneck  
+→ [7 Developer bắt đầu triển khai: sau khi đủ rõ]  
 
-Pain chính:
+Pain chính:  
 Ý tưởng ban đầu còn mơ hồ, thiếu acceptance criteria, edge cases hoặc flow cụ thể nên developer phải hỏi lại nhiều lần.
 
 ### Draft future workflow
 FUTURE STATE — 0-1 lần hỏi lại trước khi triển khai
 
-[1 Project leader nêu ý tưởng feature trong meeting / Notion: 10-20']
-→ [2 AI chuyển ý tưởng thành draft requirement: 2-3']
-→ [3 AI gợi ý user story, input/output, main flow, edge cases: 2-3']
-→ [4 AI liệt kê câu hỏi còn thiếu để project leader bổ sung: 1-2']
-→ [5 Project leader review + chỉnh requirement: 10-15']  <-- human boundary
-→ [6 Developer đọc requirement rõ ràng hơn: 5-10']
-→ [7 Developer hỏi lại nếu còn thiếu: 0-1 lần]
-→ [8 Developer bắt đầu triển khai]
+[1 Project leader nêu ý tưởng feature trong meeting / Notion: 10-20']  
+→ [2 AI chuyển ý tưởng thành draft requirement: 2-3']  
+→ [3 AI gợi ý user story, input/output, main flow, edge cases: 2-3']  
+→ [4 AI liệt kê câu hỏi còn thiếu để project leader bổ sung: 1-2']  
+→ [5 Project leader review + chỉnh requirement: 10-15']  <-- human boundary  
+→ [6 Developer đọc requirement rõ ràng hơn: 5-10']  
+→ [7 Developer hỏi lại nếu còn thiếu: 0-1 lần]  
+→ [8 Developer bắt đầu triển khai]  
 
-Fallback:
+Fallback:  
 AI hiểu sai ý tưởng hoặc tạo requirement quá chung → project leader dùng template thủ công để viết lại mục tiêu, flow và acceptance criteria.
 
