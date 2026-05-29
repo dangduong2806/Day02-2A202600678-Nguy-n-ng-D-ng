@@ -45,7 +45,7 @@
 
 ```text
 - Tôi nhận ra nhiều problem nhìn khác nhau nhưng cùng pattern: thông tin rải rác, phải đọc/lọc/tổng hợp thủ công.
-- Tôi học được rằng problem tốt không chỉ là pain lớn, mà phải có actor rõ, bottleneck cụ thể và metric đo được.
+- Tôi học được rằng problem tốt không chỉ là pain point lớn, mà phải có actor rõ, bottleneck cụ thể và metric đo được.
 - Tôi thấy các bài của bạn khác giúp nhóm so sánh được domain rộng như paper review/product workflow với domain hẹp hơn như Legal QA debugging.
 ```
 
@@ -59,14 +59,14 @@
 ### Tôi có thay đổi ý kiến sau khi bị challenge không?
 
 ```text
-- Ban đầu tôi nghĩ candidate của mình có thể được chọn vì pain rõ.
+- Ban đầu tôi nghĩ candidate của mình có thể được chọn vì pain point rõ.
 - Sau khi nghe challenge, tôi hiểu rằng bài được chọn cần không chỉ hay mà còn phải pilot được, có boundary rõ và so sánh Rule/Workflow/Agent tốt.
 ```
 
 ### Tôi đóng góp gì thật sự vào artifact cuối?
 
 ```text
-- Đóng góp cụ thể của mình: problem card, cluster, câu hỏi challenge, workflow, metric, boundary hoặc decision.
+- Đóng góp cụ thể: problem card, cluster, câu hỏi challenge, workflow, metric, boundary hoặc decision.
 ```
 
 ### Điều khó nhất khi viết Problem Statement là gì?
@@ -74,7 +74,6 @@
 ```text
 - Khó nhất là không viết thành solution.
 - Khó tách rõ bottleneck khỏi impact.
-- Khó đưa metric vừa đo được vừa không quá tham vọng.
 - Khó đặt boundary để AI không làm quá vai trò.
 ```
 
@@ -83,21 +82,19 @@
 ```text
 - Tôi sẽ hỏi kỹ hơn về dữ liệu pilot: có query lỗi thật không, có chunks/luật gốc không.
 - Tôi sẽ yêu cầu đo baseline thật thay vì chỉ ước lượng.
-- Tôi sẽ challenge mạnh hơn câu hỏi: Rule có đủ chưa, vì sao cần AI?
+- Tôi sẽ đặt mạnh hơn các câu hỏi: Rule có đủ chưa, vì sao cần AI?
 ```
 
 ---
 
-## 5. Reflection cá nhân — bản nháp để tự sửa
+## 5. Reflection cá nhân
 
 ```text
-Trong quá trình làm nhóm, tôi tham gia từ bước đưa ra top 3 problem cá nhân, pitch problem card, nghe và challenge ý tưởng của các bạn khác, đến lúc nhóm gom cluster và chọn candidate cuối cùng. Qua quá trình này, tôi nhận ra một problem tốt không chỉ là một vấn đề nghe “hay” hoặc có vẻ cần AI, mà phải có actor cụ thể, workflow hiện tại rõ, bottleneck nằm ở một bước cụ thể, impact đo được và boundary đủ an toàn.
+Trong quá trình làm nhóm, tôi tham gia từ bước đưa ra top 3 problem cá nhân, pitch problem card, nghe và bàn luận ý tưởng của các bạn khác, và chọn candidate cuối cùng. Qua quá trình này, tôi nhận ra một problem tốt không chỉ là một vấn đề nghe “hay” hoặc có vẻ cần AI, mà phải có actor cụ thể, workflow hiện tại rõ, bottleneck nằm ở một bước cụ thể, impact đo được và boundary đủ an toàn. 
 
-Tôi học được nhiều từ việc nghe top 3 problems của các bạn khác. Nhiều bài có pattern giống nhau: người dùng phải đọc nhiều thông tin rải rác, tự lọc ý chính, rồi biến thành quyết định hoặc action tiếp theo. Tuy nhiên, không phải bài nào cũng nên giải bằng AI. Một số bài có thể xử lý bằng rule, template hoặc checklist. Vì vậy, nhóm cần so sánh kỹ Rule / Workflow / Agent trước khi quyết định.
+Qua artifact cuối. Tôi cũng hiểu rằng trong domain pháp luật, AI không nên tự quyết định đúng/sai cuối cùng. Vai trò hợp lý hơn là hỗ trợ tách claim, map evidence, tóm tắt nguồn và gợi ý lỗi; còn người thật vẫn phải review.
 
-Trong artifact cuối, tôi đóng góp bằng cách đưa ra problem cá nhân, tham gia gom trùng, thảo luận shortlist, góp ý workflow trước/sau và đồng thuận với hướng chọn Workflow cho bài Legal QA Debugging. Tôi cũng hiểu rằng trong domain pháp luật, AI không nên tự quyết định đúng/sai cuối cùng. Vai trò hợp lý hơn là hỗ trợ tách claim, map evidence, tóm tắt nguồn và gợi ý lỗi; còn người thật vẫn phải review.
-
-Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở phần validation. Cụ thể, tôi sẽ yêu cầu có query lỗi thật, retrieved chunks thật và luật gốc thật để đo baseline thay vì chỉ dùng estimate. Tôi cũng sẽ hỏi kỹ hơn liệu rule/template có giải được một phần lớn workflow không trước khi đưa AI vào.
+Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở phần validation. Cụ thể, tôi sẽ yêu cầu có query lỗi thật, retrieved chunks thật và luật gốc thật để đo baseline thay vì chỉ dùng estimate. Tôi cũng sẽ hỏi liệu phần lớn workflow có được giải bằng rule-based/template trước khi đưa AI vào không ? Từ đó tôi học được 1 điều rằng: Không phải cứ cái gì cũng cố nhét bằng được AI vào.
 ```
 
 ---
